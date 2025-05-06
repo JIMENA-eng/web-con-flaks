@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f2f5;
+    font-family: 'Times New Roman', Times, serif;
+    background: #d8f3dc; /* Verde pastel */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +25,7 @@ input[type="password"] {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0); /* Degradado blanco a gris claro */
 }
 
 button {
